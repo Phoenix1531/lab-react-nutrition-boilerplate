@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 195, 84);
+}
+.foodbox-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(115, 250, 122);
+    width: 40%;
+    border-radius: 20px;
+
+}
+.left img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+.add{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: larger;
+}
+.reset{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: rgb(254, 98, 98);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.num-inp{
+    height: 35px;
+    width: 50px;
+}
