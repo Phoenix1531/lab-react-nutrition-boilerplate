@@ -38,7 +38,7 @@ const Foodbox = (props) => {
       </div>
       <div className="right">
         <h2>
-          {quantity} {name} {"=>"} {cal * quantity} calories
+          {input} {name} {"=>"} {cal * quantity} calories
         </h2>
         <button
           className="reset"
